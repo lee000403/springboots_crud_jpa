@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>상세 페이지</h1>
+    <div th:text="${record.language_id}"></div>
+    <div th:text="${record.name}"></div>
+    <div th:text="${record.last_update}"></div>
+    <a th:href="@{/language/update_text/{language_id}(language_id=${record.language_id})}">수정</a>
+</body>
+</html>

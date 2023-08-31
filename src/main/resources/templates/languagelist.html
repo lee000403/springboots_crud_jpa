@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+
+    .layout {
+        width : 500px;
+        margin : 0 auto;
+        margin-top : 40px;
+    }
+</style>
+
+<body>
+    <div class="layout">
+        <table>
+            <thead>
+                <tr>
+                    <th>language_id</th>
+                    <th>name</th>
+                    <th>last_update</th>
+                </tr>
+            </thead>
+            <tbody>
+                <form>
+                    <tr th:each="language : ${list}">
+                        <td th:text="${language.language_id}"></td>
+                        <td th:text="${language.name}"></td>
+                        <td th:text="${language.last_update}"></td>
+                        <td>
+                            <button type="submit" formaction="/language/detail" name="language_id" th:value="${language.language_id}">상세 정보</button>
+                        </td>
+                        <td>
+                            <button type="submit" formaction="/language/delete" name="language_id" th:value="${language.language_id}">삭제</button>
+                        </td>
+                    </tr>
+                    <div>
+                        <button type="submit" formaction="/language/insert" formmethod="post">입력</button>
+                    </div>
+                </form>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

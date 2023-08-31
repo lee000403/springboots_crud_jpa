@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <h1>언어 이름 입력</h1>
+    <form th:action="@{/language/update/{language_id}(language_id=${language.language_id})}" method="post">
+        <input name="name" type="text" th:value="${language.name}">
+        <button type="submit">수정 완료</button>
+    </form>
+</div>
+</body>
+</html>
