@@ -2,7 +2,6 @@ package com.example.board.entity;
 
 import lombok.Data;
 import org.hibernate.annotations.UpdateTimestamp;
-
 import javax.persistence.*;
 import java.time.LocalDateTime;
 
