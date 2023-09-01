@@ -17,14 +17,16 @@
 
 <h3> 💊 공부 내용 </h3>
 <h5 align="center">Controller, Service, Entity, Repository 에 대한 이해</h5>
+
 | Controller | Service | Entity | Repository |
-| --- | --- | --- |
-| 사용자한테 DTO 받아 Service의 기능을 호출한다. | Controller 에서 DTO를 통해 데이터를 받은 후 Repository를 통해 데이터를 관리하는 역할을 한다. | DB에 있는 Column들을 필드로 가지고 있다. PK값을 @Id로 설정해줘야한다. | DB에 실제로 접근하는 것. Service와 DB를 역할해주는 역할을 한다.|
+| --- | --- | --- | --- |
+| 사용자한테 DTO 받아 Service의 기능을 호출한다. | Controller에서 DTO를 통해 데이터를 받은 후 Repository를 통해 데이터를 관리하는 역할을 한다. | DB에 있는 Column들을 필드로 가지고 있다. PK값을 @Id로 설정해줘야한다. | DB에 실제로 접근하는 것. Service와 DB를 역할해주는 역할을 한다. |
 
 <h5 align="center">Repository의 기능</h5>
-| save() | findOne() | findAll() | count() | delete() |
-| --- | --- | --- | --- | --- |
-| 기능 |
+
+| save()    | findOne()                  | findAll()                 | count()                 | delete()                  |
+| --------- | -------------------------- | ------------------------- | ----------------------- | ------------------------- |
+| **기능**   |
 | 레코드 저장(insert 및 update) | pk를 활용한 레코드 하나 찾기 | 전체 레코드 불러오기 | 레코드 갯수 확인 | 해당 레코드 삭제 |
 
 <h3> 😥 문제점 </h3>
