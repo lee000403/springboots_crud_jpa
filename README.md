@@ -19,4 +19,4 @@
   <img src="https://github.com/lee000403/springboots_crud_jpa/blob/main/images/JPA-CRUD%20%EB%B8%94%EB%A1%9C%EA%B7%B8.jpg" align="center" width="32%">
 </p>
 
-![image.jpg1](https://github.com/lee000403/springboots_crud_jpa/blob/main/images/JPA-CRUD%20%EC%9C%A0%ED%8A%9C%EB%B8%8C.jpg) |![image.jpg2](https://github.com/lee000403/springboots_crud_jpa/blob/main/images/JPA-CRUD%20%EB%B8%94%EB%A1%9C%EA%B7%B8.jpg)
+![image.jpg1](https://github.com/lee000403/springboots_crud_jpa/blob/main/images/JPA-CRUD%20%EC%9C%A0%ED%8A%9C%EB%B8%8C.jpg) |![image.jpg2](https://github.com/lee000403/springboots_crud_jpa/blob/main/images/JPA-CRUD%20%EB%B8%94%EB%A1%9C%EA%B7%B8.jpg)|
