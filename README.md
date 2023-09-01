@@ -9,13 +9,7 @@
 
 <h3 align="center">📁 공부 방법 📁</h3>
 
-<div style="display: flex;">
-  <div style="flex-direction: column; text-align: center; margin-right: 20px;">
-    <img src="https://github.com/lee000403/springboots_crud_jpa/blob/main/images/JPA-CRUD%20%EC%9C%A0%ED%8A%9C%EB%B8%8C.jpg" width="40%" height="300">
-    <p>블로그 참고 내용</p>
-  </div>
-  <div style="flex-direction: column; text-align: center;">
-    <img src="https://github.com/lee000403/springboots_crud_jpa/blob/main/images/JPA-CRUD%20%EB%B8%94%EB%A1%9C%EA%B7%B8.jpg" width="40%" height="300">
-    <p>유튜브 참고 내용</p>
-  </div>
-</div>
+| 블로그 참고 내용 | 유튜브 참고 내용 |
+| --- | --- |
+| ![블로그 이미지](https://github.com/lee000403/springboots_crud_jpa/blob/main/images/JPA-CRUD%20%EC%9C%A0%ED%8A%9C%EB%B8%8C.jpg) | ![유튜브 이미지](https://github.com/lee000403/springboots_crud_jpa/blob/main/images/JPA-CRUD%20%EB%B8%94%EB%A1%9C%EA%B7%B8.jpg) |
+| 블로그 내용 | 유튜브 내용 |
