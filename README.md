@@ -37,6 +37,7 @@
 <h5> 기존에 있던 권한 및 로그인에 대한 변경이 없는지? (추후 공부 예정)</h5>
 
 <h3> 결과물 </h3>
+<img src="https://github.com/lee000403/springboots_crud_jpa/blob/main/images/JPA-CRUD%20%EA%B2%B0%EA%B3%BC%EB%AC%BC.jpg">
 
 <h3> 🍎 최종 목적 </h3>
 <h5>기본적인 CRUD를 JPA를 활용하여 코드 작성 및 코드 간편화</h5>
