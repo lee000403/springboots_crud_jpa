@@ -12,4 +12,4 @@
 | 유튜브 참고 내용 | 블로그 참고 내용 |
 | --- | --- |
 | ![유튜브 이미지](https://github.com/lee000403/springboots_crud_jpa/blob/main/images/JPA-CRUD%20%EC%9C%A0%ED%8A%9C%EB%B8%8C.jpg) | ![블로그 이미지](https://github.com/lee000403/springboots_crud_jpa/blob/main/images/JPA-CRUD%20%EB%B8%94%EB%A1%9C%EA%B7%B8.jpg) |
-| JPA에 대한 기본적인 CRUD 코드 제공이 되어있음 | JPA에 대한 이해도 증가 |
+| JPA에 대한 기본적인 CRUD 코드 | JPA에 대한 이해도 증가 |
