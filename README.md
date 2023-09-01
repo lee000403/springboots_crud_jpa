@@ -9,6 +9,7 @@
 
 <h3 align="center">📁 공부 방법 📁</h3>
 
+<figure class="half">
 <h5 align="center">유튜브 참고 내용</h5>
 <p align="center">
   <img src="https://github.com/lee000403/springboots_crud_jpa/blob/main/images/JPA-CRUD%20%EC%9C%A0%ED%8A%9C%EB%B8%8C.jpg" width="300" height="300">
@@ -18,3 +19,4 @@
 <p align="center">
   <img src="https://github.com/lee000403/springboots_crud_jpa/blob/main/images/JPA-CRUD%20%EB%B8%94%EB%A1%9C%EA%B7%B8.jpg" width="300" height="300">
 </p>
+</figure>
